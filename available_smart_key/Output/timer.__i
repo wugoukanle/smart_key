@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\CM3 -I..\user -I..\fwlib\inc -I..\fwlib\src -I..\Module\delay -I..\Module\NVIC -I..\Module\OLED -I..\Module\usart -I..\Module\RFID -I..\Module\spi_flash -I..\Module\bluetooth -I..\Module\USB -I..\Module\Timer -I..\Module\Li_Power -I..\Module\RTC -I..\Module\IWDG -I..\Module\sw_key 
+-I C:\Keil\ARM\RV31\INC 
+-I C:\Keil\ARM\CMSIS\Include 
+-I C:\Keil\ARM\Inc\ST\STM32F10x 
+-DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -o "..\Output\timer.o" --omf_browse "..\Output\timer.crf" --depend "..\Output\timer.d" "..\Module\Timer\timer.c"
